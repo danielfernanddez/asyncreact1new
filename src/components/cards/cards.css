@@ -1,0 +1,88 @@
+.Card-container{
+    background-color: #F2F2F2;
+    min-height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+    gap: 3rem;
+}
+.Card-h2{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 2rem;
+}
+.Card-grid{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+    gap: 2rem;
+}
+
+/* ItemCards */
+.Works-item , .All-item, .Your-item, .Supports-item, .Free-item, .Built-item{
+    padding: 2rem;
+    border-radius: .75rem;
+    max-width: 17rem;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    color: #ffffff;
+}
+.Works-p , .All-p, .Your-p, .Supports-p, .Free-p, .Built-p{
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.Works-icon , .All-icon, .Your-icon, .Supports-icon, .Free-icon, .Built-icon{
+    width: 50px;
+}
+.Works-item{
+    background-color: #007AFF;
+}
+.All-item{
+    background-color: #FFB800;
+    color: #000000;
+}
+.Your-item{
+    background-color: #FF2D55;
+}
+.Supports-item{
+    background-color: #000000;
+}
+.Free-item{
+    background-color: #7000FF;
+}
+.Built-item{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* ItemBox */
+
+.Daring-item , .Verge-item , .Macworld-item , .Maclife-item , .Clean-item , .Macstories-item{
+    padding: 2rem;
+    border-radius: .75rem;
+    max-width: 17rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #ffffff;
+    background-color: #F2F2F2;
+}
+.Daring-p , .Verge-p , .Macworld-p , .Maclife-p , .Clean-p , .Macstories-p{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    line-height: 1.5rem;
+    color: #000000;
+    order: 1;
+}
+.Daring-icon , .Verge-icon , .Macworld-icon , .Maclife-icon , .Clean-icon , .Macstories-icon{
+    order: 2;
+    width: 100px;
+}

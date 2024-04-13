@@ -1,0 +1,85 @@
+.Hero-div{
+    background-color: #007AFF;
+  }
+  .Archive-div{
+    background-color: #FF2D55;
+  }
+  .Keep-div{
+    background-color: black;
+  }
+  .Expand-div{
+    background-color: #FFB800
+  }
+  .Context-div{
+    background-color: #7000FF;
+  }
+  
+  .Hero-div, .Archive-div , .Keep-div , .Expand-div , .Context-div{
+    min-height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0rem 2rem;
+    width: 100%;
+  }
+  .Hero-info , .Archive-info , .Keep-info , .Expand-info , .Context-info{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 4rem 1rem;
+    max-width: 30%;
+  }
+  .Hero-info{
+    gap: 1.5rem;
+  }
+  .Archive-info , .Keep-info , .Expand-info , .Context-info{
+    gap: .5rem;
+  }
+  .Archive-info , .Expand-info{
+    order: 2
+  }
+  .Hero-divmobile , .Expand-divmobile , .Context-divmobile{
+    display: flex;
+    align-items: end;
+  }
+  .Archive-divmobile , .Expand-divmobile{
+    order: 1
+  }
+  .Archive-icon , .Keep-icon , .Expand-icon , .Context-icon{
+    width: 50px;
+  }
+  .Hero-icon{
+    width: 80px;
+  }
+  .Hero-apple{
+    width: 200px;
+  }
+  .Archive-h2 , .Keep-h2 , .Expand-h2 , .Context-h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+  }
+  .Hero-h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+  }
+  .Expand-h2{
+    color: black;
+  }
+  .Hero-p, .Archive-p , .Keep-p , .Expand-p , .Context-p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 10;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(255, 255, 255, 0.7);
+  }
+  .Expand-p{
+    color: black;
+  }
+  .Hero-mobile{
+    width: 320px;
+  }
